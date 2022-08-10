@@ -20,7 +20,7 @@ const App = () => {
   return (
     <SafeAreaView>
       <ScrollView>
-        <View><Text>DENEME1</Text>
+        <View><Text>DENEME1 asasas</Text>
           <Text>DENEME2</Text>
         </View>
         <View><Text>DENEME3</Text>
