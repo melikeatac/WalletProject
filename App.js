@@ -24,7 +24,7 @@ const App = () => {
           <Text>DENEME2</Text>
         </View>
         <View><Text>DENEME3</Text>
-          <Text>DENEME24</Text>
+          <Text>DENEME4</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
