@@ -9,7 +9,6 @@ import {
   TextInput,
   Button
 } from 'react-native';
-import news_data from "./news_data.json"
 
 const App = () => {
   const [text, onChangeText] = React.useState("Useless Text");
@@ -19,7 +18,7 @@ const App = () => {
   return (
     <SafeAreaView>
 
-      <Button title="Press Me" onPress={ () => setTotal(number1 - number2)}></Button>
+      <Button title="Press Me" onPress={() => setTotal(number1 - number2)}>{text}</Button>
       <Text>  {total} </Text>
       <Text> Gelir </Text>
 
